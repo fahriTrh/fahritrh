@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.primary {
+  @apply bg-gradient-to-br from-[#00C0FF] to-[#4218B8]
+}
+
+.primary-reverse {
+  @apply bg-gradient-to-br from-[#4218B8] to-[#00C0FF]
+}
+
+.text-primary {
+  @apply bg-gradient-to-br from-[#00C0FF] to-[#4218B8] bg-clip-text text-transparent
+}
+
+.sticky {
+  @apply fixed border-b border-b-gray-900 bg-black/40 backdrop-blur
+}
