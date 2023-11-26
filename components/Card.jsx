@@ -28,11 +28,7 @@ const Card = ({ children,
 
             <div className="w-full rounded-md overflow-hidden mt-2">
                 <MyModal image={snapshot}>
-                    <Image
-                        src={snapshot}
-                        alt={name}
-                        className="w-full max-h-[200px]"
-                    />
+                    <img src={snapshot} className="w-full max-h-[200px]" />
                 </MyModal>
             </div>
 

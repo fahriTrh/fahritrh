@@ -49,11 +49,7 @@ export default function MyModal({children, image}) {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="w-[90%] md:w-[80%] transform overflow-hidden transition-all">
-                  <Image
-                        src={snapshot}
-                        alt={`/${image}`}
-                        className='w-full object-cover object-center'
-                    />
+                  <img src={image} alt="" className='w-full object-cover object-center' />
                 </Dialog.Panel>
               </Transition.Child>
             </div>
