@@ -28,12 +28,12 @@ export default function Home() {
     <main className='px-4 sm:px-7 md:px-10 lg:px-12 pt-28 md:pt-36 lg:pt-40'>
       <h1 className='text-3xl sm:text-4xl md:text-6xl font-extrabold lead leading-snug md:leading-[66px] lg:leading-[69px] tracking-wide' data-aos='fade-up'>
         <span className='text-xl sm:text-2xl md:text-4xl'>Hi! <br /></span>
-        I&apos;m <span className='text-primary'>Far</span> - Full Stack
+          I&lsquo;m &rsquo; <span className='text-primary'>Far</span> - Full Stack
         Developer
       </h1>
 
       <p className='lg:max-w-[80%] text-gray-300 mt-3.5 sm:mt-4 md:mt-4 lg:mt-5 xl:mt-6 leading-normal sm:leading-relaxed text-base md:text-lg lg:text-xl lg:leading-normal' data-aos='fade-up'>
-        I&apos;m a self-taught developer, who's currently pursuing a Full-Stack development to create stunning user experiences on the front-end, scalable, and secure infrastructure on the backend.
+        I&lsquo;m happy.&rsquo; a self-taught developer, who's currently pursuing a Full-Stack development to create stunning user experiences on the front-end, scalable, and secure infrastructure on the backend.
       </p>
 
       <div data-aos='fade-up'>
