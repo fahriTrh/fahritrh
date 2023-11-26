@@ -4,14 +4,16 @@ import Button from "./Button";
 import CardIcon from "./IconCard";
 import MyModal from "./MyModal";
 import { useRouter } from "next/navigation";
+import Image from 'next/image'
 
 
 
-const Card = ({children,
+
+const Card = ({ children,
     name,
     description,
-    snapshot, 
-    code = '/', 
+    snapshot,
+    code = '/',
     demo = '/'
 }) => {
 
@@ -26,7 +28,11 @@ const Card = ({children,
 
             <div className="w-full rounded-md overflow-hidden mt-2">
                 <MyModal image={snapshot}>
-                    <img src={snapshot} className="w-full max-h-[200px]" />
+                    <Image
+                        src={snapshot}
+                        alt={name}
+                        className="w-full max-h-[200px]"
+                    />
                 </MyModal>
             </div>
 

@@ -110,8 +110,9 @@ const Projects = () => {
                     {/* projects card */}
 
                     {
-                        projects.map(project => (
+                        projects.map((project, index) => (
                             <Card
+                                key={index}
                                 name={project.name}
                                 description={project.description}
                                 snapshot={project.snapshot}

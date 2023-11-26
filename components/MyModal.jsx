@@ -1,5 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+import Image from 'next/image'
 
 export default function MyModal({children, image}) {
   let [isOpen, setIsOpen] = useState(false)
@@ -48,7 +49,11 @@ export default function MyModal({children, image}) {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="w-[90%] md:w-[80%] transform overflow-hidden transition-all">
-                  <img src={`/${image}`} className='w-full object-cover object-center' />
+                  <Image
+                        src={snapshot}
+                        alt={`/${image}`}
+                        className='w-full object-cover object-center'
+                    />
                 </Dialog.Panel>
               </Transition.Child>
             </div>
