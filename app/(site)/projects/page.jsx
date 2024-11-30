@@ -67,7 +67,7 @@ const Projects = () => {
                     </>
         },
         {
-            name: 'Movie App',
+            name: 'Film Berry',
             description: 'movie preview application where users can view trending films, as well as search for and play movie previews.',
             snapshot: 'movie2.png',
             demo: 'https://filmberry-byfahri.vercel.app/',
