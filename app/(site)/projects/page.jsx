@@ -69,9 +69,9 @@ const Projects = () => {
         {
             name: 'Movie App',
             description: 'movie preview application where users can view trending films, as well as search for and play movie previews.',
-            snapshot: 'movie.png',
-            demo: 'https://movie-eight-lake.vercel.app/',
-            code: 'https://github.com/fahriTrh/Movie',
+            snapshot: 'movie2.png',
+            demo: 'https://filmberry-byfahri.vercel.app/',
+            code: 'https://github.com/fahriTrh/filmberry',
             children:<>
                         <div className="relative w-[min-content]">
                             <CardIcon variant='react' className='peer' />
@@ -82,13 +82,13 @@ const Projects = () => {
                         <div className="relative w-[min-content]">
                             <CardIcon variant='api' className='peer' />
                             <div className="absolute -top-10 -left-8 -right-8 opacity-0 peer-hover:opacity-100 duration-300 bg-black flex items-center justify-center py-1 rounded-md border text-sm md:text-base border-gray-400">
-                                <span className="block m-auto">spotify api</span>
+                                <span className="block m-auto">api</span>
                             </div>
                         </div>
                         <div className="relative w-[min-content]">
-                            <CardIcon variant='css' className='peer' />
-                            <div className="absolute -top-10 -left-5 -right-5 opacity-0 peer-hover:opacity-100 duration-300 bg-black flex items-center justify-center py-1 rounded-md border text-sm md:text-base border-gray-400">
-                                <span className="block m-auto">Css</span>
+                            <CardIcon variant='tailwind' className='peer' />
+                            <div className="absolute -top-10 -left-6 -right-6 opacity-0 peer-hover:opacity-100 duration-300 bg-black flex items-center justify-center py-1 rounded-md border text-sm md:text-base border-gray-400">
+                                <span className="block m-auto">Tailwind</span>
                             </div>
                         </div>
                     </>
